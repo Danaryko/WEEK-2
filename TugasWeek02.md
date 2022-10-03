@@ -356,7 +356,15 @@
 
 ## DOM Events
   DOM merupakan singkatan dari Document Object Model. DOM merepresentasikan  halaman dimana kita bisa merubah struktur, style, dan isinya dari sebuah website. DOM bukan Bagian dari javascript, melainkan sebuah Web API untuk membangun website. DOM bisa dipakai di bahasa pemrograman lain.
-  DOM adalah jembatan supaya bahasa pemrograman dapat berinteraksi dengan dokumen HTML, dengan memakai DOM, javascript dapat memanipulasi HTML.
+  DOM adalah jembatan supaya bahasa pemrograman dapat berinteraksi dengan dokumen HTML, dengan memakai DOM, javascript dapat memanipulasi HTML. Beberapa hal yang dapat dilakukan oleh DOM adalah:
+    
+  - Mengubah elemen HTML pada halaman website
+  - Mengubah atribut HTML pada halaman website
+  - Mengubah CSS style pada halaman website
+  - Menambah/menghapus elemen maupun atribut HTML
+  - Menambah HTML event
+  - Berinteraksi dengan semua HTML event di website Di dalam  HTML DOM, semua elemen HTML dari sebuah website dianggap sebagai objek. Sebagaimana objek pada
+  JavaScript pada umumnya, objek elemen HTML di HTML DOM juga memiliki properti dan method yang lebih dikenal dengan sebutan DOM Property dan DOM Method. Jadi, untuk mengubah value property dari elemen HTML, kita bisa menggunakan DOM Property dan untuk memanggil fungsi dari suatu elemen HTML, kita bisa menggunakan DOM Method.
 
   Ada 2 item yang akan didapatkan saat mengakses DOM yaitu : 
     
@@ -398,7 +406,7 @@
     console.log(itemQuarry.parentNode);
     Output : NodeList(3) [li.item, li.item, li.item] 
     ```
-    
+
 
 
 
